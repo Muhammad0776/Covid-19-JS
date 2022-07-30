@@ -1,0 +1,35 @@
+body {
+    background-color: #f5d45f;
+}
+
+.general {
+    text-align: center;
+    padding: 0 20px;
+}
+
+img {
+    width: 65%;
+    margin-bottom: 40px;
+}
+
+.formData>input {
+    background-color: transparent;
+    border: 1px solid #57b7;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none !important;
+}
+
+.formData>button {
+    margin-left: 20px;
+    background-color: rgba(171, 199, 255, 0.467);
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #57b7;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 17px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./linkIconLogo.png" />
+    <title>Covid-19 Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="general">
+      <img src="./covidlogo.png" alt="covid-19" />
+      <form action="" class="formData">
+        <input type="text" class="country-name" placeholder="State name" />
+        <button class="search-btn">Search</button>
+      </form>
+      <div class="container">
+        <div class="loading">Loading...</div>
+        <div class="errors"></div>
+        <div class="results">
+          <p><strong>New diseases:</strong> <span class="todayCases"></span></p>
+          <p><strong>New deathes:</strong> <span class="todayDeaths"></span></p>
+          <p><strong>Total diseases:</strong> <span class="cases"></span></p>
+          <p><strong>Total death:</strong> <span class="deaths"></span></p>
+          <p>
+            <strong>Total recovery:</strong> <span class="recovered"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
